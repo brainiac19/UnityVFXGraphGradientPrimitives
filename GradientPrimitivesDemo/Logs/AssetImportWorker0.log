@@ -1,0 +1,805 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.24f1 (6667702a1e7c) revision 6711152'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+I:\Unity\2021.1.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/GradientPrimitivesDemo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3610
+Successfully changed project path to: H:/GradientPrimitivesDemo
+H:/GradientPrimitivesDemo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 104.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.24f1 (6667702a1e7c)
+[Subsystems] Discovering subsystems at path I:/Unity/2021.1.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/GradientPrimitivesDemo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11127 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'I:/Unity/2021.1.24f1/Editor/Data/Managed'
+Mono path[1] = 'I:/Unity/2021.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'I:/Unity/2021.1.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: I:/Unity/2021.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001150 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.437 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2438ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (465ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008249 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.399 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1399ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1187ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (370ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.2 MB.
+System memory in use after: 166.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4723.
+Total: 3.317100 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.247700 ms MarkObjects: 2.694100 ms  DeleteObjects: 0.062900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials
+  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.005614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1966229f3d7993f283b578bcf544b58') in 0.002641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.682472 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(08f530abfdab34043b5dd146d619a30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(08f530abfdab34043b5dd146d619a30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7b3c2856cc47557c9e2a94716cafac') in 0.003720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.959973 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.003101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.664996 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd7ca10b5bf32e886eec457cf073a7') in 0.002707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.986690 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d3c7f067974f53c9189dc8f099de79') in 0.040298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.703076 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4542ac25dcfcea03cda7e5b9c8784cb8') in 0.005442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.031300 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b39c2fc61a2ea2a383f0c0c33a7749e') in 0.003271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.421114 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5a30219286eb2a872f2f84d66d9616') in 0.002508 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4166 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 159.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4724.
+Total: 3.156000 ms (FindLiveObjects: 0.268900 ms CreateObjectMapping: 0.179200 ms MarkObjects: 2.502200 ms  DeleteObjects: 0.204800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007686 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1144ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (946ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4164 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 159.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4725.
+Total: 2.859300 ms (FindLiveObjects: 0.239000 ms CreateObjectMapping: 0.174100 ms MarkObjects: 2.429400 ms  DeleteObjects: 0.015900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.530110 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.954300 seconds.
+  path: Assets/DemoVFX
+  artifactKey: Guid(9a7050aa1dd37394cb39d3834fda42d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX using Guid(9a7050aa1dd37394cb39d3834fda42d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951d4a0d40cdc35c35961ced889647e5') in 0.002719 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007179 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image H:\GradientPrimitivesDemo\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1158ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4691 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 5248.
+Total: 3.081200 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.222100 ms MarkObjects: 2.499800 ms  DeleteObjects: 0.089700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109.684951 seconds.
+  path: Assets/DemoVFX/New VFX.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/New VFX.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc27303163dc387c936f190bc8d1b4c5') in 0.028009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.624674 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ead39c5f895396f76617eb804915337') in 0.004266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.353780 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411c645f995f2249c5875f9cfeed139f') in 0.004049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.927909 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fec68b355eade7a8e3a3021d09f4d9') in 0.005042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.001382 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f522fc523becaae88978fcb2ccbb97') in 0.003832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.176408 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38067b75bd423f3cb5e4acf62ec53099') in 0.003609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.509714 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fd6da444b18d69cf2b7f188509a345') in 0.003691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.946929 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c37d98729ef3d82b94693aff380782') in 0.003540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.071024 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27629643d3c77ef74e1e292eb4ef4709') in 0.003805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.864123 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce9231e91189706900f03efdb5ba4a2') in 0.003756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.213122 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a04211a4205725c9bc042514e64909') in 0.003863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.480068 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc713e5ea8c53a56f8b4ab79cec6e92c') in 0.003735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.278826 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498f22f0b34f7dd5761722f1263e5279') in 0.004696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.160641 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0486ac2f412158feed6c5136ee8d3fce') in 0.004067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.688750 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644019e92dca1b07728485cb5a030783') in 0.004613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.741471 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39379ce97994a75d3f283dfb7133830') in 0.004541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.455505 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94840ab6acb5c3f376e8c32c9c316784') in 0.004079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.045922 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65817e0f653ca276e3ce7265a19466d9') in 0.004181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.961896 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e84f9a1bd020e2f14b573045d34cd7') in 0.003601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.633725 seconds.
+  path: Assets/DemoVFX/Demo.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/Demo.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae8e1f602254b433ce325bdcf1e330f') in 0.003827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.587926 seconds.
+  path: Assets/DemoVFX/SimpleKillbox.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/SimpleKillbox.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3ddfb6fecd51977a7d530139409228') in 0.003821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.445982 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4873553072383605d3114a9a0a3e904d') in 0.004366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314792 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df0093f9f54007368a733eba1506723') in 0.004033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.411765 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6f08950e77aabd3f2855e678e00dc6') in 0.004690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.732977 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c3bad904b02577da590632900b2293') in 0.004664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.744509 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b69038e85375a09f27f0f9d716466d6') in 0.004061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.660707 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f01f40fecadcb46de5ff746686188a') in 0.003930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.222412 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8289a3d684e5d6b9a121e0dba3df105a') in 0.003832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.932283 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2110c3d424c9b8df70d22ee428fae277') in 0.004534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.773999 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286022c1b53219e439439ddd08aa57c9') in 0.003750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.473861 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132d9b0898dbcac06aff0395bd9f8593') in 0.004355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.023876 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3186886991db4fbc57147fb41f099e2e') in 0.004350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.451247 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f205a18e810e82aa1a5e027ef2c61d6d') in 0.002793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.571521 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b97e04e9bf6bc81715dbd46b72c3bc') in 0.003785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.916834 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef72fefcf0f09c1dc23faf73f4fc2c60') in 0.003688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.632027 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d1ad4b3eaf8c82408e68bcf6ffd54f') in 0.003694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.406973 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70f5805c520d0bb62f4429ef26f92f1') in 0.003654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.715476 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed32e2aac4a895c2732cfdb1d4752323') in 0.004581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.707897 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df0055a58b502cebb2d3c4d132b734a') in 0.004083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936988 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a9c137987d8cf3f440004556085293') in 0.003888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.029167 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4e0905cb3163f0c5d7a07a0503378c') in 0.003747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.030648 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2629dca85102811fe2dc929d72342e0d') in 0.004096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.254783 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f879281df856f5d553ee733398c59c') in 0.003812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.607295 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12078ccb115bb4c64a0bd6bcf169a13') in 0.003707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.954058 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4efcce975d36a4617063979eb099e4') in 0.004126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.070046 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aee75a21353b0947c87a4a43ede3586') in 0.004172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.243706 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294c9d0caa6adacb061ce848a9594c0b') in 0.003861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.757188 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3490b16ab31ebbb79b10b315eb735394') in 0.003917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.738101 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045ec1c23728e60651345356e5f5571b') in 0.003656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.652409 seconds.
+  path: Assets/DemoVFX/SimpleKillbox.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/SimpleKillbox.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71640df43a14dcc0d44354a59fbefff9') in 0.003605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.644837 seconds.
+  path: Assets/DemoVFX/SimpleKillbox.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/SimpleKillbox.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac507abfd40add483e905f7f6ec4802') in 0.004091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.688965 seconds.
+  path: Assets/DemoVFX/SimpleKillbox.vfx
+  artifactKey: Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/SimpleKillbox.vfx using Guid(b8be17ded26555047b566ed5832c37e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fe367d4709c3ca271e36c34eed7c33') in 0.004137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.829009 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17bb96f71e3417d125d8a21a718e24d') in 0.003918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.936809 seconds.
+  path: Assets/DemoVFX/KillboxWithGradientBox.vfx
+  artifactKey: Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/KillboxWithGradientBox.vfx using Guid(da33603028a3cba45b67393e47fc513e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281e0720ed99a4cf4dc539d67cdcfff4') in 0.004127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.812558 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58c38bd5c519cf2556a1db1c59630d') in 0.003733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.332686 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340e161f44cd5e768ba300f91e06fa52') in 0.005107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.467332 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53f2ca1782dfc65ce784696d911f09c') in 0.003927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.598794 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca2ab76528d79f4f777ee384340ef45') in 0.004386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.627319 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c1aae49c35b0d3ce0eefc4c2b7effd') in 0.004077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.059519 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8c5b96577fe079b7fc436768021112') in 0.003981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.592015 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efee08a3a00c8b12372ad02f6706e204') in 0.005403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.065690 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8913a1484def5010e947ca50aab751') in 0.004246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2288.475939 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5fe38f115c1d1bc4e73dffb6896394') in 0.008306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.381118 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e6d8162f41aac8c14f035ea7908e2f') in 0.004233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.019372 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedb1c3951c48c6ce97c49d66b0fc024') in 0.004235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.347495 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e9200e88ba579e60f8b55f4d9053a1') in 0.003990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.891016 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a14fe7fd5bf9a61192edd73e1a7e18d') in 0.003861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1754.332229 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a521969c995d0c8c15bd335bf9e1e5') in 0.004529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.624994 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943e8debbe7212ea4d44f0e31578a303') in 0.004107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.785479 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eba121af37380e86811b1ed9e1b4f1') in 0.004493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.534992 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a262b44349b22e4e80d4bdfbcdfe201a') in 0.004095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.216269 seconds.
+  path: Assets/DemoVFX/GradientUsage.vfx
+  artifactKey: Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoVFX/GradientUsage.vfx using Guid(56072ad43ce8adf41b46954ed047bccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb4c3bff1a3f87a1b175992fd163813') in 0.004441 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
