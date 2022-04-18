@@ -1,5 +1,5 @@
-# UnityVFXGraphGradientPrimitives
- Originally designed to deal with the situation that the kill component makes particles disappear abruptly.
+# Unity VFX Graph Gradient Primitives
+ Originally designed to deal with the situation that the kill component makes particles disappear abruptly.I actually named it VFX Graph faded killbox originally, but changed it later because it could do more.
  
  The left one uses a Kill AABox component, the right one utilizes the gradient box operator to sample alpha value from gradient and thus makes particles fade when they get close enough to the box's surface.
  
